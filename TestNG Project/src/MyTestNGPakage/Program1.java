@@ -24,7 +24,6 @@ WebDriver driver;
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 	}
-
 //Verified Title of Amazon login page
 @Test
 public void VerifyTitle()
@@ -55,7 +54,6 @@ public void Electronics()
 {
 driver.findElement(By.xpath("//a[@class='nav-a  ']")).click();
 //driver.findElement(By.xpath("//a[.=' Electronics ']")).click();
-
 }
 
 @AfterMethod
