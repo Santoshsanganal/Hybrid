@@ -24,6 +24,8 @@ WebDriver driver;
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5));
 	}
+
+//Verified Title of Amazon login page
 @Test
 public void VerifyTitle()
 {
